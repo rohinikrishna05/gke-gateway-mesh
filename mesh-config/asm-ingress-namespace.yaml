@@ -1,0 +1,8 @@
+# Namespace to deploy Service Mesh Ingress resources - mesh ingress gateway, secrets, roles and role binding for service account, etc
+# The label istio-injection: enabled instructs Cloud Service Mesh to inject envoy proxies when an application is deployed
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: asm-ingress
+  labels:
+    istio-injection: enabled
