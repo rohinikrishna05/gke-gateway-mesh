@@ -1,2 +1,3 @@
+#Override RootSync for kustomization to work
 resources:
   - github.com/GoogleCloudPlatform/anthos-service-mesh-samples/docs/ingress-gateway-asm-manifests/base
